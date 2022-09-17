@@ -6,6 +6,11 @@ if (num1>num2)
 {
     Console.Write("first number "+ num1 + " > second number " + num2);
 }
+else 
+if (num1==num2)
+{
+    Console.Write("first number "+ num1 + " = second number " + num2);
+}
 else
 {
     Console.Write("second number "+ num2+ " > first number " + num1 );
